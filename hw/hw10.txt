@@ -1,0 +1,13 @@
+1. What are two different ways to succeed at a stack smashing attack described in the paper?
+
+First, overflow the buffer (write more data than the buffer allotted) at the calculated distance so that the return address is over written. This way the return address that you put in is where the next command will execute. You can point that to anything you want.
+
+Second, use an environment variable. Place the code that you want to run in an environment variable. Then overflow the buffer with the address of this variable in memory.
+
+2. How does the paper recommend you find a buffer overflow vulnerability? Do you know of any other ways to find this vulnerability?
+
+Look for programs that have functions that call build in C functions that have no bound checking.
+
+Disassemble programs and look for calls to these functions that don't check bounds.
+
+Supply large amounts of data to programs that take input and step through the execution with a debugger to see if there is a discrepancy in the execution.

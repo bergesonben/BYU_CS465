@@ -1,0 +1,23 @@
+1.  ECB: The ciphertext for P and Q will all be the same except for block 10. Block 10 are completely different.
+    CBC: Every block up until block 10 will be the same. Every block after block 10 will be completely different.
+    CTR: All blocks will be the same except for block 10. Block 10 will differ by one bit.
+    CFB: Every block up until block 10 will be the same. Block 10 will differ by one bit. Every block after block 10 will be completely different.
+    OFB: All blocks except block 10 will be the same. Block 10 will differe by one bit.
+2.  ECB: Same as question 1
+    CBC: No relationship between P and Q ciphertext.
+    CTR: No relationship between P and Q ciphertext.
+    CFB: No relationship between P and Q ciphertext.
+    OFB: No relationship between P and Q ciphertext.
+3.  ECB: All blocks except block 25 will be the same. Block 25 are completely different.
+    CBC: Every block before block 25 will be the same. Block 25 will be completely different. Block 26 will differ by one bit.
+    CTR: All blocks except block 25 will be the same. Block 25 will differ by one bit.
+    CFB All blocks before block 25 will be the same. Block 25 will differ by one bit. Block 26 will be completely different. All blocks after block 26 will be the same.
+    OFB: All blocks except block 25 will be the same. Block 25 will differ by one bit.
+4.  ECB: Block 50.
+    CBC: Block 50 and 49.
+    CTR: Block 50.
+    CFB: Block 50 and 49.
+    OFB: Block 50.
+5. ECB CTR
+6. ECB CBC CTR CFB
+7. CTR OFB

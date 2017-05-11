@@ -1,0 +1,7 @@
+1.  1) Terminator Canary: This uses null terminators as a canary at the end of the stack. By using null terminators as a canary this prevents buffer overflow of functions that stop when encountering a null terminator, such as strcopy().
+    2) Random Canary: This uses a random value as a canary. Usually generated at program initialization and stored in a global variable. This makes it very hard for attackers to locate the value.
+    3) Random XOR Canary: This is basically a random canary that is XORed with all or part of the control data. This has the added benefit of making it hard to read from the stack, because the attacker would need to get the canary, the algorithm and the control data to regenerate the original canary.
+    4) Bounds checking: This method checks at run time if an allocated block of memory is going to be overflowed. It stores the run-time bounds for the blocks of memory and checks against it at run time.
+    5) Tagging: Using either software or hardware, certain parts of the memory are tagged with a specific type. It can mark some parts of memory as non-executable or non-allocated.
+
+2. The null terminator canary doesn't work for memcpy(). It only works on copies that check for null terminated strings. The random canary checks if the buffer has been overflowed and the canary itself is over written. However, it doesn't check for specific changes on the stack, such as changing the return address without changing the canary.

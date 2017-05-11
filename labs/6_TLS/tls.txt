@@ -1,0 +1,8 @@
+From my list of different sites I tried, most of them came back with the same results.
+All of them used the same key exchange, symmetric encryption algorithm, and mode: ECDHE, AES, and GCM, respectively.
+All except for facebook.com used RSA for the authentication algorithm. Facebook used ECDSA.
+For the key size, they were all either 128 or 256.
+
+Qustions:
+Is there a specific reason for the different key sizes between websites?
+What does it mean when some websites return with only the authentication and mac, and nothing else? 

@@ -1,0 +1,32 @@
+1.
+  Mixcolumns(state)
+  {
+      array newState;
+      for (each column) {
+        newState(0,column) = (state(0,column) << 1) ^ (state(1,column) << 1) ^ (state(1,column)) ^ (state(2,column)) ^ (state(3,column));
+        newState(1,column) = (state(0,column)) ^ (state(1,column) << 1) ^ (state(2,column) << 1) ^ (state(2,column)) ^ (state(3,column));
+        newState(2,column) = (state(0,column)) ^ (state(1,column)) ^ (state(2,column) << 1) ^ (state(3,column) << 1) ^ (state(3,column));
+        newState(3,column) = (state(0,column) << 1) ^ (state(0,column)) ^ (state(1,column)) ^ (state(2,column)) ^ (state(3,column) << 1);
+      }
+      return newState;
+  }
+
+2.
+  byte ffMultiply(byte a, byte b)
+  {
+    array xtimes[8];
+    byte prev = a;
+    for (element in xtimes) {
+      element = xtime(prev);
+      prev = element;
+    }
+
+    byte result;
+    for (loop 8 times) {
+      if (last bit of byte b is 1) {
+        result = result ^ xtimes[i];
+        b = b >> 1;
+      }
+    }
+    return result;
+  }

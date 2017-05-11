@@ -1,0 +1,411 @@
+=========================================================
+AES-128 Nk = 4 Nr = 10
+plaintext = 00112233445566778899aabbccddeeff
+key = 000102030405060708090a0b0c0d0e0f
+ENCRYPTION
+=========================================================
+round[0].input		0x112233445566778899aabbccddeeffL
+round[1].k_sch		0xd6aa74fdd2af72fadaa678f1d6ab76feL
+round[1].start		0x102030405060708090a0b0c0d0e0f0L
+round[1].s_box		0x63cab7040953d051cd60e0e7ba70e18cL
+round[1].s_row		0x6353e08c0960e104cd70b751bacad0e7L
+round[1].m_col		0x5f72641557f5bc92f7be3b291db9f91aL
+round[2].k_sch		0xb692cf0b643dbdf1be9bc5006830b3feL
+round[2].start		0x89d810e8855ace682d1843d8cb128fe4L
+round[2].s_box		0xa761ca9b97be8b45d8ad1a611fc97369L
+round[2].s_row		0xa7be1a6997ad739bd8c9ca451f618b61L
+round[2].m_col		0xff87968431d86a51645151fa773ad009L
+round[3].k_sch		0xb6ff744ed2c2c9bf6c590cbf0469bf41L
+round[3].start		0x4915598f55e5d7a0daca94fa1f0a63f7L
+round[3].s_box		0x3b59cb73fcd90ee05774222dc067fb68L
+round[3].s_row		0x3bd92268fc74fb735767cbe0c0590e2dL
+round[3].m_col		0x4c9c1e66f771f0762c3f868e534df256L
+round[4].k_sch		0x47f7f7bc95353e03f96c32bcfd058dfdL
+round[4].start		0xfa636a2825b339c940668a3157244d17L
+round[4].s_box		0x2dfb02343f6d12dd09337ec75b36e3f0L
+round[4].s_row		0x2d6d7ef03f33e334093602dd5bfb12c7L
+round[4].m_col		0x6385b79ffc538df997be478e7547d691L
+round[5].k_sch		0x3caaa3e8a99f9deb50f3af57adf622aaL
+round[5].start		0x247240236966b3fa6ed2753288425b6cL
+round[5].s_box		0x36400926f9336d2d9fb59d23c42c3950L
+round[5].s_row		0x36339d50f9b539269f2c092dc4406d23L
+round[5].m_col		0xf4bcd45432e554d075f1d6c51dd03b3cL
+round[6].k_sch		0x5e390f7df7a69296a7553dc10aa31f6bL
+round[6].start		0xc81677bc9b7ac93b25027992b0261996L
+round[6].s_box		0xe847f56514dadde23f77b64fe7f7d490L
+round[6].s_row		0xe8dab6901477d4653ff7f5e2e747dd4fL
+round[6].m_col		0x9816ee7400f87f556b2c049c8e5ad036L
+round[7].k_sch		0x14f9701ae35fe28c440adf4d4ea9c026L
+round[7].start		0xc62fe109f75eedc3cc79395d84f9cf5dL
+round[7].s_box		0xb415f8016858552e4bb6124c5f998a4cL
+round[7].s_row		0xb458124c68b68a014b99f82e5f15554cL
+round[7].m_col		0xc57e1c159a9bd286f05f4be098c63439L
+round[8].k_sch		0x47438735a41c65b9e016baf4aebf7ad2L
+round[8].start		0xd1876c0f79c4300ab45594add66ff41fL
+round[8].s_box		0x3e175076b61c04678dfc2295f6a8bfc0L
+round[8].s_row		0x3e1c22c0b6fcbf768da85067f6170495L
+round[8].m_col		0xbaa03de7a1f9b56ed5512cba5f414d23L
+round[9].k_sch		0x549932d1f08557681093ed9cbe2c974eL
+round[9].start		0xfde3bad205e5d0d73547964ef1fe37f1L
+round[9].s_box		0x5411f4b56bd9700e96a0902fa1bb9aa1L
+round[9].s_row		0x54d990a16ba09ab596bbf40ea111702fL
+round[9].m_col		0xe9f74eec023020f61bf2ccf2353c21c7L
+round[10].s_box		0x7a9f102789d5f50b2beffd9f3dca4ea7L
+round[10].s_row		0x7ad5fda789ef4e272bca100b3d9ff59fL
+round[10].k_sch		0x13111d7fe3944a17f307a78b4d2b30c5L
+round[10].output	0x69c4e0d86a7b0430d8cdb78070b4c55aL
+
+
+
+=========================================================
+AES-192 Nk = 6 Nr = 12
+plaintext = 00112233445566778899aabbccddeeff
+key = 000102030405060708090a0b0c0d0e0f1011121314151617
+ENCRYPTION
+=========================================================
+round[0].input		0x112233445566778899aabbccddeeffL
+round[1].k_sch		0x10111213141516175846f2f95c43f4feL
+round[1].start		0x102030405060708090a0b0c0d0e0f0L
+round[1].s_box		0x63cab7040953d051cd60e0e7ba70e18cL
+round[1].s_row		0x6353e08c0960e104cd70b751bacad0e7L
+round[1].m_col		0x5f72641557f5bc92f7be3b291db9f91aL
+round[2].k_sch		0x544afef55847f0fa4856e2e95c43f4feL
+round[2].start		0x4f63760643e0aa85aff8c9d041fa0de4L
+round[2].s_box		0x84fb386f1ae1ac977941dd70832dd769L
+round[2].s_row		0x84e1dd691a41d76f792d389783fbac70L
+round[2].m_col		0x9f487f794f955f662afc86abd7f1ab29L
+round[3].k_sch		0x40f949b31cbabd4d48f043b810b7b342L
+round[3].start		0xcb02818c17d2af9c62aa64428bb25fd7L
+round[3].s_box		0x1f770c64f0b579deaaac432c3d37cf0eL
+round[3].s_row		0x1fb5430ef0accf64aa370cde3d77792cL
+round[3].m_col		0xb7a53ecbbf9d75a0c40efc79b674cc11L
+round[4].k_sch		0x58e151ab04a2a5557effb5416245080cL
+round[4].start		0xf75c7778a327c8ed8cfebfc1a6c37f53L
+round[4].s_box		0x684af5bc0acce85564bb0878242ed2edL
+round[4].s_row		0x68cc08ed0abbd2bc642ef555244ae878L
+round[4].m_col		0x7a1e98bdacb6d1141a6944dd06eb2d3eL
+round[5].k_sch		0x2ab54bb43a02f8f662e3a95d66410c08L
+round[5].start		0x22ffc916a81474416496f19c64ae2532L
+round[5].s_box		0x9316dd47c2fa92834390a1de43e43f23L
+round[5].s_row		0x93faa123c2903f4743e4dd83431692deL
+round[5].m_col		0xaaa755b34cffe57cef6f98e1f01c13e6L
+round[6].k_sch		0xf501857297448d7ebdf1c6ca87f33e3cL
+round[6].start		0x80121e0776fd1d8a8d8c31bc965d1feeL
+round[6].s_box		0xcdc972c53854a47e5d64c765904cc028L
+round[6].s_row		0xcd54c7283864c0c55d4c727e90c9a465L
+round[6].m_col		0x921f748fd96e937d622d7725ba8ba50cL
+round[7].k_sch		0xe510976183519b6934157c9ea351f1e0L
+round[7].start		0x671ef1fd4e2a1e03dfdcb1ef3d789b30L
+round[7].s_box		0x8572a1542fe5727b9e86c8df27bc1404L
+round[7].s_row		0x85e5c8042f8614549ebca17b277272dfL
+round[7].m_col		0xe913e7b18f507d4b227ef652758acbccL
+round[8].k_sch		0x1ea0372a995309167c439e77ff12051eL
+round[8].start		0xc0370d00c01e622166b8accd6db3a2cL
+round[8].s_box		0xfe7b5170fe7c8e93477f7e4bf6b98071L
+round[8].s_row		0xfe7c7e71fe7f807047b95193f67b8e4bL
+round[8].m_col		0x6cf5edf996eb0a069c4ef21cbfc25762L
+round[9].k_sch		0xdd7e0e887e2fff68608fc842f9dcc154L
+round[9].start		0x7255dad30fb80310e00d6c6b40d0527cL
+round[9].s_box		0x40fc5766766c7bcae1d7507f09700010L
+round[9].s_row		0x406c501076d70066e17057ca09fc7b7fL
+round[9].m_col		0x7478bcdce8a50b81d4327a9009188262L
+round[10].k_sch		0x859f5f237a8d5a3dc0c02952beefd63aL
+round[10].start		0xa906b254968af4e9b4bdb2d2f0c44336L
+round[10].s_box		0xd36f3720907ebf1e8d7a37b58c1c1a05L
+round[10].s_row		0xd37e3705907a1a208d1c371e8c6fbfb5L
+round[10].m_col		0xd73cc2d8f6abe8b0cf2dd9bb83d422eL
+round[11].k_sch		0xde601e7827bcdf2ca223800fd8aeda32L
+round[11].start		0x88ec930ef5e7e4b6cc32f4c906d29414L
+round[11].s_box		0xc4cedcabe694694e4b23bfdd6fb522faL
+round[11].s_row		0xc494bffae62322ab4bb5dc4e6fce69ddL
+round[11].m_col		0x71d720933b6d677dc00b8f28238e0fb7L
+round[12].s_box		0x79a9b2e99c3e6cd1aa3476cc0fb70397L
+round[12].s_row		0x793e76979c3403e9aab7b2d10fa96cccL
+round[12].k_sch		0xa4970a331a78dc09c418c271e3a41d5dL
+round[12].output	0xdda97ca4864cdfe06eaf70a0ec0d7191L
+
+
+
+=========================================================
+AES-256 Nk = 8 Nr = 14
+plaintext = 00112233445566778899aabbccddeeff
+key = 000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f
+ENCRYPTION
+=========================================================
+round[0].input		0x112233445566778899aabbccddeeffL
+round[1].k_sch		0x101112131415161718191a1b1c1d1e1fL
+round[1].start		0x102030405060708090a0b0c0d0e0f0L
+round[1].s_box		0x63cab7040953d051cd60e0e7ba70e18cL
+round[1].s_row		0x6353e08c0960e104cd70b751bacad0e7L
+round[1].m_col		0x5f72641557f5bc92f7be3b291db9f91aL
+round[2].k_sch		0xa573c29fa176c498a97fce93a572c09cL
+round[2].start		0x4f63760643e0aa85efa7213201a4e705L
+round[2].s_box		0x84fb386f1ae1ac97df5cfd237c49946bL
+round[2].s_row		0x84e1fd6b1a5c946fdf4938977cfbac23L
+round[2].m_col		0xbd2a395d2b6ac438d192443e615da195L
+round[3].k_sch		0x1651a8cd0244beda1a5da4c10640badeL
+round[3].start		0x1859fbc28a1c00a078ed8aadc42f6109L
+round[3].s_box		0xadcb0f257e9c63e0bc557e951c15ef01L
+round[3].s_row		0xad9c7e017e55ef25bc150fe01ccb6395L
+round[3].m_col		0x810dce0cc9db8172b3678c1e88a1b5bdL
+round[4].k_sch		0xae87dff00ff11b68a68ed5fb03fc1567L
+round[4].start		0x975c66c1cb9f3fa8a93a28df8ee10f63L
+round[4].s_box		0x884a33781fdb75c2d380349e19f876fbL
+round[4].s_row		0x88db34fb1f807678d3f833c2194a759eL
+round[4].m_col		0xb2822d81abe6fb275faf103a078c0033L
+round[5].k_sch		0x6de1f1486fa54f9275f8eb5373b8518dL
+round[5].start		0x1c05f271a417e04ff921c5c104701554L
+round[5].s_box		0x9c6b89a349f0e18499fda678f2515920L
+round[5].s_row		0x9cf0a62049fd59a399518984f26be178L
+round[5].m_col		0xaeb65ba974e0f822d73f567bdb64c877L
+round[6].k_sch		0xc656827fc9a799176f294cec6cd5598bL
+round[6].start		0xc357aae11b45b7b0a2c7bd28a8dc99faL
+round[6].s_box		0x2e5bacf8af6ea9e73ac67a34c286ee2dL
+round[6].s_row		0x2e6e7a2dafc6eef83a86ace7c25ba934L
+round[6].m_col		0xb951c33c02e9bd29ae25cdb1efa08cc7L
+round[7].k_sch		0x3de23a75524775e727bf9eb45407cf39L
+round[7].start		0x7f074143cb4e243ec10c815d8375d54cL
+round[7].s_box		0xd2c5831a1f2f36b278fe0c4cec9d0329L
+round[7].s_row		0xd22f0c291ffe031a789d83b2ecc5364cL
+round[7].m_col		0xebb19e1c3ee7c9e87d7535e9ed6b9144L
+round[8].k_sch		0xbdc905fc27b0948ad5245a4c1871c2fL
+round[8].start		0xd653a4696ca0bc0f5acaab5db96c5e7dL
+round[8].s_box		0xf6ed49f950e06576be74624c565058ffL
+round[8].s_row		0xf6e062ff507458f9be50497656ed654cL
+round[8].m_col		0x5174c8669da98435a8b3e62ca974a5eaL
+round[9].k_sch		0x45f5a66017b2d387300d4d33640a820aL
+round[9].start		0x5aa858395fd28d7d05e1a38868f3b9c5L
+round[9].s_box		0xbec26a12cfb55dff6bf80ac4450d56a6L
+round[9].s_row		0xbeb50aa6cff856126b0d6aff45c25dc4L
+round[9].m_col		0xf77ee31d2ccadc05430a83f4ef96ac3L
+round[10].k_sch		0x7ccff71cbeb4fe5413e6bbf0d261a7dfL
+round[10].start		0x4a824851c57e7e47643de50c2af3e8c9L
+round[10].s_box		0xd61352d1a6f3f3a04327d9fee50d9bddL
+round[10].s_row		0xd6f3d9dda6279bd1430d52a0e513f3feL
+round[10].m_col		0xbd86f0ea748fc4f4630f11c1e9331233L
+round[11].k_sch		0xf01afafee7a82979d7a5644ab3afe640L
+round[11].start		0xc14907f6ca3b3aa070e9aa313b52b5ecL
+round[11].s_box		0x783bc54274e280e0511eacc7e200d5ceL
+round[11].s_row		0x78e2acce741ed5425100c5e0e23b80c7L
+round[11].m_col		0xaf8690415d6e1dd387e5fbedd5c89013L
+round[12].k_sch		0x2541fe719bf500258813bbd55a721c0aL
+round[12].start		0x5f9c6abfbac634aa50409fa766677653L
+round[12].s_box		0xcfde0208f4b418ac5309db5c338538edL
+round[12].s_row		0xcfb4dbedf4093808538502ac33de185cL
+round[12].m_col		0x7427fae4d8a695269ce83d315be0392bL
+round[13].k_sch		0x4e5a6699a9f24fe07e572baacdf8cdeaL
+round[13].start		0x516604954353950314fb86e401922521L
+round[13].s_box		0xd133f22a1aed2a7bfa0f44697c4f3ffdL
+round[13].s_row		0xd1ed44fd1a0f3f2afa4ff27b7c332a69L
+round[13].m_col		0x2c21a820306f154ab712c75eee0da04fL
+round[14].s_box		0xaa218b56ee5ebeacdd6ecebf26e63c06L
+round[14].s_row		0xaa5ece06ee6e3c56dde68bac2621bebfL
+round[14].k_sch		0x24fc79ccbf0979e9371ac23c6d68de36L
+round[14].output	0x8ea2b7ca516745bfeafc49904b496089L
+=========================================================
+AES-128 Nk = 4 Nr = 10
+plaintext = 00112233445566778899aabbccddeeff
+key = 000102030405060708090a0b0c0d0e0f
+DECRYPTION
+=========================================================
+round[0].iinput		0x69c4e0d86a7b0430d8cdb78070b4c55aL
+round[01].start		0x7ad5fda789ef4e272bca100b3d9ff59fL
+round[01].isrow		0x7a9f102789d5f50b2beffd9f3dca4ea7L
+round[01].is_box	0xbd6e7c3df2b5779e0b61216e8b10b689L
+round[01].ik_sch	0x549932d1f08557681093ed9cbe2c974eL
+round[01].ik_add	0xe9f74eec023020f61bf2ccf2353c21c7L
+round[02].start		0x54d990a16ba09ab596bbf40ea111702fL
+round[02].isrow		0x5411f4b56bd9700e96a0902fa1bb9aa1L
+round[02].is_box	0xfde3bad205e5d0d73547964ef1fe37f1L
+round[02].ik_sch	0x47438735a41c65b9e016baf4aebf7ad2L
+round[02].ik_add	0xbaa03de7a1f9b56ed5512cba5f414d23L
+round[03].start		0x3e1c22c0b6fcbf768da85067f6170495L
+round[03].isrow		0x3e175076b61c04678dfc2295f6a8bfc0L
+round[03].is_box	0xd1876c0f79c4300ab45594add66ff41fL
+round[03].ik_sch	0x14f9701ae35fe28c440adf4d4ea9c026L
+round[03].ik_add	0xc57e1c159a9bd286f05f4be098c63439L
+round[04].start		0xb458124c68b68a014b99f82e5f15554cL
+round[04].isrow		0xb415f8016858552e4bb6124c5f998a4cL
+round[04].is_box	0xc62fe109f75eedc3cc79395d84f9cf5dL
+round[04].ik_sch	0x5e390f7df7a69296a7553dc10aa31f6bL
+round[04].ik_add	0x9816ee7400f87f556b2c049c8e5ad036L
+round[05].start		0xe8dab6901477d4653ff7f5e2e747dd4fL
+round[05].isrow		0xe847f56514dadde23f77b64fe7f7d490L
+round[05].is_box	0xc81677bc9b7ac93b25027992b0261996L
+round[05].ik_sch	0x3caaa3e8a99f9deb50f3af57adf622aaL
+round[05].ik_add	0xf4bcd45432e554d075f1d6c51dd03b3cL
+round[06].start		0x36339d50f9b539269f2c092dc4406d23L
+round[06].isrow		0x36400926f9336d2d9fb59d23c42c3950L
+round[06].is_box	0x247240236966b3fa6ed2753288425b6cL
+round[06].ik_sch	0x47f7f7bc95353e03f96c32bcfd058dfdL
+round[06].ik_add	0x6385b79ffc538df997be478e7547d691L
+round[07].start		0x2d6d7ef03f33e334093602dd5bfb12c7L
+round[07].isrow		0x2dfb02343f6d12dd09337ec75b36e3f0L
+round[07].is_box	0xfa636a2825b339c940668a3157244d17L
+round[07].ik_sch	0xb6ff744ed2c2c9bf6c590cbf0469bf41L
+round[07].ik_add	0x4c9c1e66f771f0762c3f868e534df256L
+round[08].start		0x3bd92268fc74fb735767cbe0c0590e2dL
+round[08].isrow		0x3b59cb73fcd90ee05774222dc067fb68L
+round[08].is_box	0x4915598f55e5d7a0daca94fa1f0a63f7L
+round[08].ik_sch	0xb692cf0b643dbdf1be9bc5006830b3feL
+round[08].ik_add	0xff87968431d86a51645151fa773ad009L
+round[09].start		0xa7be1a6997ad739bd8c9ca451f618b61L
+round[09].isrow		0xa761ca9b97be8b45d8ad1a611fc97369L
+round[09].is_box	0x89d810e8855ace682d1843d8cb128fe4L
+round[09].ik_sch	0xd6aa74fdd2af72fadaa678f1d6ab76feL
+round[09].ik_add	0x5f72641557f5bc92f7be3b291db9f91aL
+round[10].istart	0x6353e08c0960e104cd70b751bacad0e7L
+round[10].is_row	0x63cab7040953d051cd60e0e7ba70e18cL
+round[10].is_box	0x102030405060708090a0b0c0d0e0f0L
+round[10].ik_sch	0x102030405060708090a0b0c0d0e0fL
+round[10].output	0x112233445566778899aabbccddeeffL
+
+
+
+=========================================================
+AES-192 Nk = 6 Nr = 12
+plaintext = 00112233445566778899aabbccddeeff
+key = 000102030405060708090a0b0c0d0e0f1011121314151617
+DECRYPTION
+=========================================================
+round[0].iinput		0xdda97ca4864cdfe06eaf70a0ec0d7191L
+round[01].start		0x793e76979c3403e9aab7b2d10fa96cccL
+round[01].isrow		0x79a9b2e99c3e6cd1aa3476cc0fb70397L
+round[01].is_box	0xafb73eeb1cd1b85162280f27fb20d585L
+round[01].ik_sch	0xde601e7827bcdf2ca223800fd8aeda32L
+round[01].ik_add	0x71d720933b6d677dc00b8f28238e0fb7L
+round[02].start		0xc494bffae62322ab4bb5dc4e6fce69ddL
+round[02].isrow		0xc4cedcabe694694e4b23bfdd6fb522faL
+round[02].is_box	0x88ec930ef5e7e4b6cc32f4c906d29414L
+round[02].ik_sch	0x859f5f237a8d5a3dc0c02952beefd63aL
+round[02].ik_add	0xd73cc2d8f6abe8b0cf2dd9bb83d422eL
+round[03].start		0xd37e3705907a1a208d1c371e8c6fbfb5L
+round[03].isrow		0xd36f3720907ebf1e8d7a37b58c1c1a05L
+round[03].is_box	0xa906b254968af4e9b4bdb2d2f0c44336L
+round[03].ik_sch	0xdd7e0e887e2fff68608fc842f9dcc154L
+round[03].ik_add	0x7478bcdce8a50b81d4327a9009188262L
+round[04].start		0x406c501076d70066e17057ca09fc7b7fL
+round[04].isrow		0x40fc5766766c7bcae1d7507f09700010L
+round[04].is_box	0x7255dad30fb80310e00d6c6b40d0527cL
+round[04].ik_sch	0x1ea0372a995309167c439e77ff12051eL
+round[04].ik_add	0x6cf5edf996eb0a069c4ef21cbfc25762L
+round[05].start		0xfe7c7e71fe7f807047b95193f67b8e4bL
+round[05].isrow		0xfe7b5170fe7c8e93477f7e4bf6b98071L
+round[05].is_box	0xc0370d00c01e622166b8accd6db3a2cL
+round[05].ik_sch	0xe510976183519b6934157c9ea351f1e0L
+round[05].ik_add	0xe913e7b18f507d4b227ef652758acbccL
+round[06].start		0x85e5c8042f8614549ebca17b277272dfL
+round[06].isrow		0x8572a1542fe5727b9e86c8df27bc1404L
+round[06].is_box	0x671ef1fd4e2a1e03dfdcb1ef3d789b30L
+round[06].ik_sch	0xf501857297448d7ebdf1c6ca87f33e3cL
+round[06].ik_add	0x921f748fd96e937d622d7725ba8ba50cL
+round[07].start		0xcd54c7283864c0c55d4c727e90c9a465L
+round[07].isrow		0xcdc972c53854a47e5d64c765904cc028L
+round[07].is_box	0x80121e0776fd1d8a8d8c31bc965d1feeL
+round[07].ik_sch	0x2ab54bb43a02f8f662e3a95d66410c08L
+round[07].ik_add	0xaaa755b34cffe57cef6f98e1f01c13e6L
+round[08].start		0x93faa123c2903f4743e4dd83431692deL
+round[08].isrow		0x9316dd47c2fa92834390a1de43e43f23L
+round[08].is_box	0x22ffc916a81474416496f19c64ae2532L
+round[08].ik_sch	0x58e151ab04a2a5557effb5416245080cL
+round[08].ik_add	0x7a1e98bdacb6d1141a6944dd06eb2d3eL
+round[09].start		0x68cc08ed0abbd2bc642ef555244ae878L
+round[09].isrow		0x684af5bc0acce85564bb0878242ed2edL
+round[09].is_box	0xf75c7778a327c8ed8cfebfc1a6c37f53L
+round[09].ik_sch	0x40f949b31cbabd4d48f043b810b7b342L
+round[09].ik_add	0xb7a53ecbbf9d75a0c40efc79b674cc11L
+round[10].start		0x1fb5430ef0accf64aa370cde3d77792cL
+round[10].isrow		0x1f770c64f0b579deaaac432c3d37cf0eL
+round[10].is_box	0xcb02818c17d2af9c62aa64428bb25fd7L
+round[10].ik_sch	0x544afef55847f0fa4856e2e95c43f4feL
+round[10].ik_add	0x9f487f794f955f662afc86abd7f1ab29L
+round[11].start		0x84e1dd691a41d76f792d389783fbac70L
+round[11].isrow		0x84fb386f1ae1ac977941dd70832dd769L
+round[11].is_box	0x4f63760643e0aa85aff8c9d041fa0de4L
+round[11].ik_sch	0x10111213141516175846f2f95c43f4feL
+round[11].ik_add	0x5f72641557f5bc92f7be3b291db9f91aL
+round[12].istart	0x6353e08c0960e104cd70b751bacad0e7L
+round[12].is_row	0x63cab7040953d051cd60e0e7ba70e18cL
+round[12].is_box	0x102030405060708090a0b0c0d0e0f0L
+round[12].ik_sch	0x102030405060708090a0b0c0d0e0fL
+round[12].output	0x112233445566778899aabbccddeeffL
+
+
+
+=========================================================
+AES-256 Nk = 8 Nr = 14
+plaintext = 00112233445566778899aabbccddeeff
+key = 000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f
+DECRYPTION
+=========================================================
+round[0].iinput		0x8ea2b7ca516745bfeafc49904b496089L
+round[01].start		0xaa5ece06ee6e3c56dde68bac2621bebfL
+round[01].isrow		0xaa218b56ee5ebeacdd6ecebf26e63c06L
+round[01].is_box	0x627bceb9999d5aaac945ecf423f56da5L
+round[01].ik_sch	0x4e5a6699a9f24fe07e572baacdf8cdeaL
+round[01].ik_add	0x2c21a820306f154ab712c75eee0da04fL
+round[02].start		0xd1ed44fd1a0f3f2afa4ff27b7c332a69L
+round[02].isrow		0xd133f22a1aed2a7bfa0f44697c4f3ffdL
+round[02].is_box	0x516604954353950314fb86e401922521L
+round[02].ik_sch	0x2541fe719bf500258813bbd55a721c0aL
+round[02].ik_add	0x7427fae4d8a695269ce83d315be0392bL
+round[03].start		0xcfb4dbedf4093808538502ac33de185cL
+round[03].isrow		0xcfde0208f4b418ac5309db5c338538edL
+round[03].is_box	0x5f9c6abfbac634aa50409fa766677653L
+round[03].ik_sch	0xf01afafee7a82979d7a5644ab3afe640L
+round[03].ik_add	0xaf8690415d6e1dd387e5fbedd5c89013L
+round[04].start		0x78e2acce741ed5425100c5e0e23b80c7L
+round[04].isrow		0x783bc54274e280e0511eacc7e200d5ceL
+round[04].is_box	0xc14907f6ca3b3aa070e9aa313b52b5ecL
+round[04].ik_sch	0x7ccff71cbeb4fe5413e6bbf0d261a7dfL
+round[04].ik_add	0xbd86f0ea748fc4f4630f11c1e9331233L
+round[05].start		0xd6f3d9dda6279bd1430d52a0e513f3feL
+round[05].isrow		0xd61352d1a6f3f3a04327d9fee50d9bddL
+round[05].is_box	0x4a824851c57e7e47643de50c2af3e8c9L
+round[05].ik_sch	0x45f5a66017b2d387300d4d33640a820aL
+round[05].ik_add	0xf77ee31d2ccadc05430a83f4ef96ac3L
+round[06].start		0xbeb50aa6cff856126b0d6aff45c25dc4L
+round[06].isrow		0xbec26a12cfb55dff6bf80ac4450d56a6L
+round[06].is_box	0x5aa858395fd28d7d05e1a38868f3b9c5L
+round[06].ik_sch	0xbdc905fc27b0948ad5245a4c1871c2fL
+round[06].ik_add	0x5174c8669da98435a8b3e62ca974a5eaL
+round[07].start		0xf6e062ff507458f9be50497656ed654cL
+round[07].isrow		0xf6ed49f950e06576be74624c565058ffL
+round[07].is_box	0xd653a4696ca0bc0f5acaab5db96c5e7dL
+round[07].ik_sch	0x3de23a75524775e727bf9eb45407cf39L
+round[07].ik_add	0xebb19e1c3ee7c9e87d7535e9ed6b9144L
+round[08].start		0xd22f0c291ffe031a789d83b2ecc5364cL
+round[08].isrow		0xd2c5831a1f2f36b278fe0c4cec9d0329L
+round[08].is_box	0x7f074143cb4e243ec10c815d8375d54cL
+round[08].ik_sch	0xc656827fc9a799176f294cec6cd5598bL
+round[08].ik_add	0xb951c33c02e9bd29ae25cdb1efa08cc7L
+round[09].start		0x2e6e7a2dafc6eef83a86ace7c25ba934L
+round[09].isrow		0x2e5bacf8af6ea9e73ac67a34c286ee2dL
+round[09].is_box	0xc357aae11b45b7b0a2c7bd28a8dc99faL
+round[09].ik_sch	0x6de1f1486fa54f9275f8eb5373b8518dL
+round[09].ik_add	0xaeb65ba974e0f822d73f567bdb64c877L
+round[10].start		0x9cf0a62049fd59a399518984f26be178L
+round[10].isrow		0x9c6b89a349f0e18499fda678f2515920L
+round[10].is_box	0x1c05f271a417e04ff921c5c104701554L
+round[10].ik_sch	0xae87dff00ff11b68a68ed5fb03fc1567L
+round[10].ik_add	0xb2822d81abe6fb275faf103a078c0033L
+round[11].start		0x88db34fb1f807678d3f833c2194a759eL
+round[11].isrow		0x884a33781fdb75c2d380349e19f876fbL
+round[11].is_box	0x975c66c1cb9f3fa8a93a28df8ee10f63L
+round[11].ik_sch	0x1651a8cd0244beda1a5da4c10640badeL
+round[11].ik_add	0x810dce0cc9db8172b3678c1e88a1b5bdL
+round[12].start		0xad9c7e017e55ef25bc150fe01ccb6395L
+round[12].isrow		0xadcb0f257e9c63e0bc557e951c15ef01L
+round[12].is_box	0x1859fbc28a1c00a078ed8aadc42f6109L
+round[12].ik_sch	0xa573c29fa176c498a97fce93a572c09cL
+round[12].ik_add	0xbd2a395d2b6ac438d192443e615da195L
+round[13].start		0x84e1fd6b1a5c946fdf4938977cfbac23L
+round[13].isrow		0x84fb386f1ae1ac97df5cfd237c49946bL
+round[13].is_box	0x4f63760643e0aa85efa7213201a4e705L
+round[13].ik_sch	0x101112131415161718191a1b1c1d1e1fL
+round[13].ik_add	0x5f72641557f5bc92f7be3b291db9f91aL
+round[14].istart	0x6353e08c0960e104cd70b751bacad0e7L
+round[14].is_row	0x63cab7040953d051cd60e0e7ba70e18cL
+round[14].is_box	0x102030405060708090a0b0c0d0e0f0L
+round[14].ik_sch	0x102030405060708090a0b0c0d0e0fL
+round[14].output	0x112233445566778899aabbccddeeffL

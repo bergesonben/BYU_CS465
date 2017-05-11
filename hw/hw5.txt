@@ -1,0 +1,11 @@
+1. Diffie-Hellman protocol allows two or more users to generate a private key across an insecure channel. The two users, Alice and Bob, pick two prime numbers, p and g, where p should be a large number. P and g does not have to be private, so it can be exchanged over insecure channels. Alice then picks a random number, a, and performs the following calculations: (g^a) % p = A. Alice then sends A to Bob. Bob does the same operation on a random number that he picks, b, and sends B, the result, to Alice. Both Alice and Bob can now compute their shared key. Alice would compute: (B^a) % p. Bob would compute: (A^b) % p. This works because ((g^a)^b) % p == ((g^b)^a) % p.
+
+2. If Mallory is able to intercept messages between Bob and Alice, she could impersonate the recipient. Mallory knows p and q already, because this was exchanged publicly. Mallory then intercepts A from Alice. Mallory is able to pretend to be Bob because there is no message authentication. Mallory performs the Diffie-Hellman protocol as if she's Bob. Alice thinks that she is messaging Bob, but in reality she is messaging Mallory. Mallory then does the same thing with Bob. Mallory now is in the middle between Alice and Bob. She can relay all the messages between the two or alter them if she wants.
+
+3.
+2048 bits or larger.
+https://weakdh.org/imperfect-forward-secrecy-ccs15.pdf (p. 11)
+
+4.
+Because p has to be prime number, that limits the number of possible values in the smaller bit-sized p. In order to have enough number of primes, the number of bits has to be large enough. Whereas the key size for AES an be any value within the bit range.
+https://blog.cloudflare.com/why-are-some-keys-small/
